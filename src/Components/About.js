@@ -18,7 +18,7 @@ const About = () => {
         </div>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-4 text-black  md:text-base lg:text-lg max-w-md md:max-w-xl lg:max-w-2xl leading-relaxed"
+          className="mt-4 text-black text-[17px] max-w-3xl leading-[30px] leading-relaxed"
         >
           <p>
             Beyond my web development expertise, I possess a robust programming
