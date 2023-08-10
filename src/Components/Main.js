@@ -24,17 +24,13 @@ const Home = () => {
         </div>
         </div>
 
-      {/* <div className={`${styles.paddingX}`}>
-        <button>Hire Me</button>
-      </div> */}
-
                 <div className={`${styles.iconsText} text-[#4477CE] mt-0 flex flex-row gap-5`}>
                      <a className="color-[blue]" href="www.twitter.com" ><FaTwitter /></a>
                      <a href="https://www.linkedin.com/in/bhawna-batra-07102000/" ><FaLinkedin /></a> 
                      <a href="https://github.com/bhawna-107" ><FaGithub /></a>
                 </div>
                 <div>
-        <button className={`${styles.buttontext} mt-4  cursor-pointer rounded-full bg-[#4477CE] text-[white]`}><a href="">Hire Me </a></button>
+        <button className={`${styles.buttontext} mt-4  cursor-pointer rounded-full bg-[#4477CE] text-[white]`}><a href="https://drive.google.com/file/d/192MxqLcNUUmwINff-TcIIFvkC1EAaNP7/view?usp=sharing">Hire Me </a></button>
       </div>
 
       <div className={` text-[#4477CE] absolute xs:bottom-19 bottom-42 w-full flex gap-10 justify-center items-center  mt-3`}>
