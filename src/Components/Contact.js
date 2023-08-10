@@ -121,7 +121,7 @@ const Contact = () => {
         <p className={`${styles.contactText}`}>  Connect with me ! </p> 
 
                 <div className={`${styles.iconsText} py-5 text-[#4477CE] flex flex-row gap-5`}>
-                     // <a className="color-[blue]" href="www.twitter.com" ><FaTwitter /></a>
+                     <a className="color-[blue]" href="www.twitter.com" ><FaTwitter /></a>
                      <a href="https://www.linkedin.com/in/bhawna-batra-07102000/" ><FaLinkedin /></a> 
                      <a href="https://github.com/bhawna-107" ><FaGithub /></a>
                 </div>
