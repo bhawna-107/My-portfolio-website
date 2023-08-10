@@ -1,43 +1,3 @@
-// import React from "react";
-// import { motion } from "framer-motion";
-// import { styles } from "../styles";
-// import { fadeIn, textVariant } from "../utils/motion";
-// import { SectionWrapper } from "../hoc";
-// import carrent from "../assets/carrent.png";
-
-// const About = () => {
-//   return (
-//     <>
-//       <motion.div variants={textVariant()} className="text-center">
-//         <h2 className="text-black font-medium text-[40px]">About Me</h2>
-//       </motion.div>
-//       <div className="flex flex-row gap-20">
-//         <motion.div>
-//           <img src={carrent} alt="dfgh" w-40 h-50 />
-//         </motion.div>
-//         <motion.p
-//           variants={fadeIn("", "", 0.1, 1)}
-//           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
-//         >
-//           In addition to my web development skills, I have a strong background
-//           in programming and a deep understanding of data structures. This
-//           allows me to design efficient algorithms and implement optimized
-//           solutions to complex problems. My portfolio features a collection of
-//           projects that demonstrate my proficiency in web development,
-//           programming, and data structures. From full-stack applications to
-//           algorithmic problem-solving, I'm confident that my skills and
-//           experience will make a valuable contribution to any project.
-
-//           <button className="mt-5 rounded-full">Download CV</button>
-//         </motion.p>
-
-//       </div>
-//     </>
-//   );
-// };
-
-// export default SectionWrapper(About, "about");
-
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
@@ -71,7 +31,7 @@ const About = () => {
             contribute to any project."
           </p>
           <button className="mt-5 rounded-full px-5 py-2 bg-[#4477CE] text-[white]text-sm md:text-base lg:text-lg">
-            <a href=""> Download CV</a>
+            <a href="https://drive.google.com/file/d/192MxqLcNUUmwINff-TcIIFvkC1EAaNP7/view?usp=sharing"> Download CV</a>
           </button>
         </motion.p>
       </div>
