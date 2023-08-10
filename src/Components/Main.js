@@ -25,7 +25,7 @@ const Home = () => {
         </div>
 
                 <div className={`${styles.iconsText} text-[#4477CE] mt-0 flex flex-row gap-5`}>
-                     <a className="color-[blue]" href="www.twitter.com" ><FaTwitter /></a>
+                     // <a className="color-[blue]" href="www.twitter.com" ><FaTwitter /></a>
                      <a href="https://www.linkedin.com/in/bhawna-batra-07102000/" ><FaLinkedin /></a> 
                      <a href="https://github.com/bhawna-107" ><FaGithub /></a>
                 </div>
