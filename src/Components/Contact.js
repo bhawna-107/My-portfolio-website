@@ -1,59 +1,3 @@
-// import React from "react";
-// import { FaTwitter, FaLinkedin, FaGithub, FaGit } from 'react-icons/fa';
-
-// const Contact= ()=>{
-//     return(
-//         <div>
-
-//             <div className="contact-all">
-//                 <div className="contact-box">
-//                 <div className="contact-content">
-//                 <div className="contact-text">
-//                     <h1>Dont be a stranger!</h1>
-//                     <h1>Connect with me </h1>
-//                 </div>
-
-//                 <div className="social-icons">
-//                     <a href="www.twitter.com" ><FaTwitter /></a>
-//                     <a href="www.linkedin.com" ><FaLinkedin /></a>
-//                     <a href="www.github.com" ><FaGithub /></a>
-//                 </div>
-//             </div>
-
-
-//             <div className="main-contact">
-//                 <div className="contact-page">
-//                 <div className="contact-form">
-//                     <h2>Contact Me</h2>
-//                     <form >
-//                         <div className="form-group">
-//                             <label for="name">Name</label>
-//                             <input type="text" id="name" required></input>
-//                         </div>
-
-//                         <div className="form-group">
-//                             <label for="email">Email</label>
-//                             <input type="text" id="email" required></input>
-//                         </div>
-
-//                         <div className="form-group">
-//                             <label for="textarea">Message</label>
-//                             <textarea id="message" rows='4'></textarea>
-//                         </div>
-//                         <button type="submit">Submit</button>
-//                     </form>
-//                 </div>
-//             </div>
-//             </div>
-
-//             </div>
-
-//                 </div>
-//         </div>
-//     )
-// }
-// export default Contact;
-
 
 import React, {useState, useRef} from 'react';
 import { motion } from 'framer-motion';
@@ -177,7 +121,7 @@ const Contact = () => {
         <p className={`${styles.contactText}`}>  Connect with me ! </p> 
 
                 <div className={`${styles.iconsText} py-5 text-[#4477CE] flex flex-row gap-5`}>
-                     <a className="color-[blue]" href="www.twitter.com" ><FaTwitter /></a>
+                     // <a className="color-[blue]" href="www.twitter.com" ><FaTwitter /></a>
                      <a href="https://www.linkedin.com/in/bhawna-batra-07102000/" ><FaLinkedin /></a> 
                      <a href="https://github.com/bhawna-107" ><FaGithub /></a>
                 </div>
