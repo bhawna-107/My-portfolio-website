@@ -30,7 +30,7 @@ const About = () => {
             algorithmic problem-solving, my skills and experience are ready to
             contribute to any project."
           </p>
-          <button className="mt-5 rounded-full px-5 py-2 bg-[#4477CE] text-[white]text-sm md:text-base lg:text-lg">
+          <button className={`${styles.buttontext} mt-5 rounded-full px-5 py-2 bg-[#4477CE] text-[white]text-sm md:text-base lg:text-lg`}>
             <a href="https://drive.google.com/file/d/192MxqLcNUUmwINff-TcIIFvkC1EAaNP7/view?usp=sharing"> Download CV</a>
           </button>
         </motion.p>
