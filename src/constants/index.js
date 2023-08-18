@@ -116,7 +116,7 @@ import {
     },
 
        {
-      name: "OpenAI Article Summarizer",
+      name: "Article Summarizer",
       description:
         " OpenAI's API summarizes articles from URLs, distilling key points using advanced language processing. It then conveniently stores these summaries locally, making it efficient to grasp important insights from lengthy articles. ",
       tags: [
