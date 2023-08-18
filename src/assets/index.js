@@ -23,6 +23,7 @@ import kanban from './kanban.jpg';
 import foodies from './foodies.jpg';
 import azure from './azure.jpg';
 import unsplash from './unsplash.jpg';
+import summarizer from './summarizer.jpg';
 
 export {
   kanban,
@@ -47,4 +48,5 @@ export {
   tailwind,
   typescript,
   threejs,
+  summarizer,
 };
