@@ -1,4 +1,3 @@
-
 import React from "react";
 import { styles } from '../styles.js';
 import { SectionWrapper } from '../hoc';
@@ -12,11 +11,19 @@ import { FaTwitter, FaLinkedin, FaGithub} from 'react-icons/fa';
 const Home = () => {
   return (
     <section className="relative w-full h-auto mx-auto">
-    <div className={` flex flex-col  sm:flex-row gap-50 top-0 sm:items-center `}>
+    <div className={` flex flex-col-reverse  sm:flex-row gap-50 top-0 sm:items-center sm:justify-center`}>
         <div className="flex flex-col mt-5 w-200 mr-20">
           <h1 className={`${styles.heroHeadText}  text-[black]`}>Hi, I'm <span className="text-[#4477CE]"> Bhawna 👋</span></h1>
           <h3 className="text-[#4477CE]  text-[18px]">Developer | Programmer </h3>
           <p className={`${styles.heroSubText} mt-3 sm:mt-0 text-black`}> Passionate software and frontend developer. Transforming ideas into elegant, functional solutions. Bridging creativity and code for exceptional user experiences. </p>
+          <div className={"text-[#4477CE] mt-0 flex flex-row gap-5"}>
+                     <a className={`${styles.iconsText}`} href="www.twitter.com" ><FaTwitter /></a>
+                     <a className={`${styles.iconsText}`}href="https://www.linkedin.com/in/bhawna-batra-07102000/" ><FaLinkedin /></a> 
+                     <a className={`${styles.iconsText}`}href="https://github.com/bhawna-107" ><FaGithub /></a>
+                </div>
+                <div>
+        <button className={`${styles.buttontext} mt-4  cursor-pointer rounded-full bg-[#4477CE] text-[white]`}><a href="https://drive.google.com/file/d/192MxqLcNUUmwINff-TcIIFvkC1EAaNP7/view?usp=sharing">Hire Me </a></button>
+      </div>
         </div>
 
         <div className="h-500px md:w-1/2 lg:w-1/3 ml-10 md:shrink-0 ">        
@@ -24,13 +31,6 @@ const Home = () => {
         </div>
         </div>
 
-                <div className={`${styles.iconsText} text-[#4477CE] mt-0 flex flex-row gap-5`}>
-                     <a href="https://www.linkedin.com/in/bhawna-batra-07102000/" ><FaLinkedin /></a> 
-                     <a href="https://github.com/bhawna-107" ><FaGithub /></a>
-                </div>
-                <div>
-        <button className={`${styles.buttontext} mt-4  cursor-pointer rounded-full bg-[#4477CE] text-[white]`}><a href="https://drive.google.com/file/d/192MxqLcNUUmwINff-TcIIFvkC1EAaNP7/view?usp=sharing">Hire Me </a></button>
-      </div>
 
       <div className={` text-[#4477CE] absolute xs:bottom-19 bottom-42 w-full flex gap-10 justify-center items-center  mt-3`}>
         <a href="#about">
