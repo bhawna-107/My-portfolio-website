@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`w-full flex  py-5 sm:px-28 px-5 sticky top-0 z-20 bg-[#fff] `}
+      className={`w-full flex  py-5 lg:px-28 px-5 sticky top-0 z-20 bg-[#fff] `}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
