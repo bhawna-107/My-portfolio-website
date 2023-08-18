@@ -19,7 +19,7 @@ const styles = {
     contactText:
     "text-[black]  md:text-[50px] sm:text-[35px] xs-text:[30px] text-[30px]",
     buttontext:
-    "bg-[#4477CE] hover:text-[black] cursor-pointer hover:bg-[white] hover:border-black"
+    "bg-[#4477CE]  cursor-pointer hover:bg-[#1b1919] hover:text-[white]"
   };
   
   export { styles };
