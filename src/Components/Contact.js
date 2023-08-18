@@ -1,4 +1,3 @@
-
 import React, {useState, useRef} from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
@@ -63,7 +62,7 @@ const Contact = () => {
       <p className={`${styles.sectionSubText} text-[black]`}>Get in Touch</p>
       <h3 className={styles.sectionHeadText}>Contact</h3>
 
-      <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8 h-[650px] w-550'>
+      <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8 h-[650px] sm:w-[550px]  w-full'>
         <label className='flex flex-col'>
           <span className='text-[#4477CE] font-medium mb-4'>Your Name</span>
           <input type='text'
@@ -108,21 +107,22 @@ const Contact = () => {
         </label>
 
         <button type='submit' className='bg-[#4477CE] py-3 px-8 outline-none w-fit text-white font-bold 
-        shadow-md shadow-primary rounded-full  cursor-pointer' >
+        shadow-md shadow-primary rounded-full  cursor-pointer hover:text-[black]' >
           {loading ? 'Sending...': 'Send'}
         </button>
       </form>
     </motion.div>
 
     <motion.div variants={slideIn('right', 'tween', 0.2, 1)}
-      className='xl:flex-1 xl:h-auto  h-[350px]'>
+      className='xl:flex-1 xl:h-auto  h-auto ' >
         <div className='flex flex-col'>
         <p className={`${styles.contactText}`}> Don't be shy !</p> 
         <p className={`${styles.contactText}`}>  Connect with me ! </p> 
 
-                <div className={`${styles.iconsText} py-5 text-[#4477CE] flex flex-row gap-5`}>
-                     <a href="https://www.linkedin.com/in/bhawna-batra-07102000/" ><FaLinkedin /></a> 
-                     <a href="https://github.com/bhawna-107" ><FaGithub /></a>
+                <div className={` py-5 text-[#4477CE] flex flex-row gap-5`}>
+                     <a className={`${styles.iconsText} `} href="www.twitter.com" ><FaTwitter /></a>
+                     <a className={`${styles.iconsText} `}href="https://www.linkedin.com/in/bhawna-batra-07102000/" ><FaLinkedin /></a> 
+                     <a className={`${styles.iconsText} `}href="https://github.com/bhawna-107" ><FaGithub /></a>
                 </div>
                 <div className='flex flex-row gap-10 mt-5'>
                   <img src={mail} alt='mail'/>
