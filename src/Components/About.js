@@ -12,7 +12,7 @@ const About = () => {
         <h2 className={`${styles.sectionHeadText} `}>About Me</h2>
       </motion.div>
 
-      <div className="flex flex-col md:flex-row gap-8 lg:gap-16 items-center mt-8">
+      <div className="flex flex-col md:flex-row gap-8 lg:gap-16 items-center mt-4">
         <div className="md:w-1/2 lg:w-1/3 md:shrink-0">
           <img src={main2unscreen} alt="dfgh" />
         </div>
