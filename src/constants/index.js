@@ -17,7 +17,7 @@ import {
     foodies,
     unsplash,
     threejs,
-    summarize
+    summarizer
   } from "../assets";
   
   export const navLinks = [
@@ -133,7 +133,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: summarize,
+      image: summarizer,
       source_code_link: "https://github.com/bhawna-107/Article-Summarizer",
       demo_link: "openai-article-summarizer-rust.vercel.app",
     },
