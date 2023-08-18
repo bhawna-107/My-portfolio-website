@@ -22,7 +22,8 @@ const Home = () => {
                      <a className={`${styles.iconsText}`}href="https://github.com/bhawna-107" ><FaGithub /></a>
                 </div>
                 <div>
-        <button className={`${styles.buttontext} mt-4  cursor-pointer rounded-full bg-[#4477CE] text-[white]`}><a href="https://drive.google.com/file/d/192MxqLcNUUmwINff-TcIIFvkC1EAaNP7/view?usp=sharing">Hire Me </a></button>
+        <button className={` ${styles.buttontext} bg-[#4477CE] mt-2 py-2 px-5 outline-none w-fit text-white font-bold 
+        shadow-md shadow-primary rounded-full  cursor-pointer hover:text-[black]`}><a href="https://drive.google.com/file/d/192MxqLcNUUmwINff-TcIIFvkC1EAaNP7/view?usp=sharing">Hire Me </a></button>
       </div>
         </div>
 
