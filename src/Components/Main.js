@@ -11,8 +11,8 @@ import { FaTwitter, FaLinkedin, FaGithub} from 'react-icons/fa';
 const Home = () => {
   return (
     <section className="relative w-full h-auto mx-auto">
-    <div className={` flex flex-col-reverse  sm:flex-row gap-50 top-0 sm:items-center sm:justify-center`}>
-        <div className="flex flex-col mt-5 w-200 mr-20">
+    <div className={` flex flex-col-reverse  sm:flex-row gap-30 top-0`}>
+        <div className="flex flex-col w-300">
           <h1 className={`${styles.heroHeadText}  text-[black]`}>Hi, I'm <span className="text-[#4477CE]"> Bhawna 👋</span></h1>
           <h3 className="text-[#4477CE]  text-[18px]">Developer | Programmer </h3>
           <p className={`${styles.heroSubText} mt-3 sm:mt-0 text-black`}> Passionate software and frontend developer. Transforming ideas into elegant, functional solutions. Bridging creativity and code for exceptional user experiences. </p>
@@ -27,7 +27,7 @@ const Home = () => {
       </div>
         </div>
 
-        <div className="h-500px md:w-1/2 lg:w-1/3 ml-10 md:shrink-0 ">        
+        <div className="h-500px md:w-1/2 lg:w-1/2 md:shrink-0 ">        
         <img src={require('../assets/hero-size.gif')} alt="hero"/>
         </div>
         </div>
