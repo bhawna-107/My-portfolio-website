@@ -62,7 +62,7 @@ const Contact = () => {
       <p className={`${styles.sectionSubText} text-[black]`}>Get in Touch</p>
       <h3 className={styles.sectionHeadText}>Contact</h3>
 
-      <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8 sm:h-[650px] h-[750px]sm:w-[550px]  w-full'>
+      <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8 sm:h-[650px] h-[750px] sm:w-[550px]  w-full'>
         <label className='flex flex-col'>
           <span className='text-[#4477CE] font-medium mb-4'>Your Name</span>
           <input type='text'
