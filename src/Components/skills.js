@@ -26,4 +26,8 @@ const Skills = () => {
   )
 }
 
+<<<<<<< HEAD
 export default SectionWrapper(Skills, 'skills');
+=======
+export default SectionWrapper(Skills, 'skills');
+>>>>>>> 6617c838fac79a361482d06f18f86cefa0a3ef2f

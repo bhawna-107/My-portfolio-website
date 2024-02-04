@@ -94,7 +94,11 @@ const Projects = () => {
         </motion.p>
       </div>
 
+<<<<<<< HEAD
       <div className='mt-10 flex flex-wrap gap-9'>
+=======
+      <div className='mt-10 flex flex-wrap gap-7'>
+>>>>>>> 6617c838fac79a361482d06f18f86cefa0a3ef2f
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
@@ -104,4 +108,8 @@ const Projects = () => {
   );
 };
 
+<<<<<<< HEAD
 export default SectionWrapper(Projects, "projects");
+=======
+export default SectionWrapper(Projects, "projects");
+>>>>>>> 6617c838fac79a361482d06f18f86cefa0a3ef2f

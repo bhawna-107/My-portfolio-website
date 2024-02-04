@@ -106,7 +106,11 @@ const Contact = () => {
           />
         </label>
 
+<<<<<<< HEAD
         <button type='submit' className={` ${styles.buttontext} bg-[#4477CE] py-3 px-8 outline-none w-fit text-white font-bold 
+=======
+        <button type='submit'className={` ${styles.buttontext} bg-[#4477CE] mt-2 py-2 px-5 outline-none w-fit text-white font-bold 
+>>>>>>> 6617c838fac79a361482d06f18f86cefa0a3ef2f
         shadow-md shadow-primary rounded-full  cursor-pointer hover:text-[black]`} >
           {loading ? 'Sending...': 'Send'}
         </button>
@@ -144,4 +148,8 @@ const Contact = () => {
     </div>
   )
 }
+<<<<<<< HEAD
 export default SectionWrapper(Contact,'contact');
+=======
+export default SectionWrapper(Contact,'contact');
+>>>>>>> 6617c838fac79a361482d06f18f86cefa0a3ef2f

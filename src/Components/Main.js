@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6617c838fac79a361482d06f18f86cefa0a3ef2f
 import React from "react";
 import { styles } from '../styles.js';
 import { SectionWrapper } from '../hoc';
@@ -13,10 +16,17 @@ const Home = () => {
   return (
     <section className="relative w-full h-auto mx-auto">
     <div className={` flex flex-col-reverse  sm:flex-row gap-30 top-0`}>
+<<<<<<< HEAD
         <div className="flex flex-col  w-300 ">
           <h1 className={`${styles.heroHeadText}  text-[black]`}>Hi, I'm <span className="text-[#4477CE]"> Bhawna👋</span></h1>
           <h3 className="text-[#4477CE]  text-[18px]">Developer | Programmer </h3>
           <p className={`${styles.heroSubText} mt-2 sm:mt-0 text-black`}> Passionate software and frontend developer. Transforming ideas into elegant, functional solutions. Bridging creativity and code for exceptional user experiences. </p>
+=======
+        <div className="flex flex-col w-300">
+          <h1 className={`${styles.heroHeadText}  text-[black]`}>Hi, I'm <span className="text-[#4477CE]"> Bhawna 👋</span></h1>
+          <h3 className="text-[#4477CE]  text-[18px]">Developer | Programmer </h3>
+          <p className={`${styles.heroSubText} mt-3 sm:mt-0 text-black`}> Passionate software and frontend developer. Transforming ideas into elegant, functional solutions. Bridging creativity and code for exceptional user experiences. </p>
+>>>>>>> 6617c838fac79a361482d06f18f86cefa0a3ef2f
           <div className={"text-[#4477CE] mt-0 flex flex-row gap-5"}>
                      <a className={`${styles.iconsText}`} href="www.twitter.com" ><FaTwitter /></a>
                      <a className={`${styles.iconsText}`}href="https://www.linkedin.com/in/bhawna-batra-07102000/" ><FaLinkedin /></a> 
@@ -28,7 +38,11 @@ const Home = () => {
       </div>
         </div>
 
+<<<<<<< HEAD
         <div className="h-700px md:w-1/2 lg:w-1/2  md:shrink-0 ">        
+=======
+        <div className="h-500px md:w-1/2 lg:w-1/2 md:shrink-0 ">        
+>>>>>>> 6617c838fac79a361482d06f18f86cefa0a3ef2f
         <img src={require('../assets/hero-size.gif')} alt="hero"/>
         </div>
         </div>

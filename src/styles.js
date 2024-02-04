@@ -1,10 +1,17 @@
 const styles = {
     paddingX: "sm:px-36 px-6",
     paddingY: "sm:py-16 py-6",
+<<<<<<< HEAD
     padding: "sm:px-16 px-8 sm:py-16 py-10",
   
     heroHeadText:
       "font-black text-[black] lg:text-[55px] sm:text-[40px] xs:text-[30px] text-[30px] lg:leading-[98px] mt-2",
+=======
+    padding: "sm:px-16 px-6 sm:py-16 py-10",
+  
+    heroHeadText:
+      "font-black text-[black] lg:text-[60px] sm:text-[40px] xs:text-[30px] text-[20px] lg:leading-[98px] mt-2",
+>>>>>>> 6617c838fac79a361482d06f18f86cefa0a3ef2f
     heroSubText:
       "text-[black] font-medium lg:text-[22px] sm:text-[20px] xs:text-[18px] text-[18px] lg:leading-[40px]",
   
@@ -22,4 +29,8 @@ const styles = {
     "bg-[#4477CE]  cursor-pointer hover:bg-[#1b1919] hover:text-[white]"
   };
   
+<<<<<<< HEAD
   export { styles };
+=======
+  export { styles };
+>>>>>>> 6617c838fac79a361482d06f18f86cefa0a3ef2f

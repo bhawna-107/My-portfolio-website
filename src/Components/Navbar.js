@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 6617c838fac79a361482d06f18f86cefa0a3ef2f
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -31,9 +34,15 @@ const Navbar = () => {
 
   return (
     <nav
+<<<<<<< HEAD
       className={`w-full flex  py-5  px-5 sticky top-0 z-20 bg-[#fff] `}
     >
       <div className='w-full flex sm:justify-between items-center max-w-7xl mx-auto'>
+=======
+      className={`w-full flex  py-5 px-5 sticky top-0 z-20 bg-[#fff] `}
+    >
+      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+>>>>>>> 6617c838fac79a361482d06f18f86cefa0a3ef2f
         <Link
           to='/'
           className='flex items-center gap-2'
