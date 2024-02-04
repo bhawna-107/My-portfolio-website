@@ -210,7 +210,7 @@ import {
     {
       name: "Admin DashBoard",
       description:
-        " OpenAI's API summarizes articles from URLs, distilling key points using advanced language processing. It then conveniently stores these summaries locally, making it efficient to grasp important insights from lengthy articles. ",
+        " Implemented a feature-rich admin dashboard with Firebase Authentication and Firestore integration for secure user access and real-time data storage. Incorporated dynamic charts and stats for intuitive data visualization",
       tags: [
         {
           name: "react",
