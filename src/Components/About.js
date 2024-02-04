@@ -12,7 +12,7 @@ const About = () => {
         <h2 className={`${styles.sectionHeadText} `}>About Me</h2>
       </motion.div>
 
-      <div className="flex flex-col md:flex-row gap-8 lg:gap-16 items-center mt-8">
+      <div className="flex flex-col md:flex-row gap-8 lg:gap-16 items-center mt-4">
         <div className="md:w-1/2 lg:w-1/3 md:shrink-0">
           <img src={main2unscreen} alt="dfgh" />
         </div>
@@ -30,7 +30,8 @@ const About = () => {
             algorithmic problem-solving, my skills and experience are ready to
             contribute to any project."
           </p>
-          <button className={`${styles.buttontext} mt-5 rounded-full px-5 py-2 bg-[#4477CE] text-[white]text-sm md:text-base lg:text-lg`}>
+          <button className={` ${styles.buttontext} bg-[#4477CE] mt-2 py-2 px-5 outline-none w-fit text-white font-bold 
+        shadow-md shadow-primary rounded-full  cursor-pointer hover:text-[black]`}>
             <a href="https://drive.google.com/file/d/192MxqLcNUUmwINff-TcIIFvkC1EAaNP7/view?usp=sharing"> Download CV</a>
           </button>
         </motion.p>
