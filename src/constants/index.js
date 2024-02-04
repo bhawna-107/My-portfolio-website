@@ -317,28 +317,28 @@ import {
     //   source_code_link: "https://github.com/",
     // },
 
-    {
-      name: "Unsplash API",
-      description:
-        "A React app using Unsplash API to fetch and display images with infinite scroll. Seamlessly loads more images as users scroll down for an engaging visual experience. User can search for any kind of images",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: unsplash,
-      source_code_link: "https://github.com/bhawna-107/Unsplash-API-Images",
-      demo_link: "https://github.com/bhawna-107/Unsplash-API-Images",
-    },
+    // {
+    //   name: "Unsplash API",
+    //   description:
+    //     "A React app using Unsplash API to fetch and display images with infinite scroll. Seamlessly loads more images as users scroll down for an engaging visual experience. User can search for any kind of images",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: unsplash,
+    //   source_code_link: "https://github.com/bhawna-107/Unsplash-API-Images",
+    //   demo_link: "https://github.com/bhawna-107/Unsplash-API-Images",
+    // },
   ];
   
   export { technologies, projects };
